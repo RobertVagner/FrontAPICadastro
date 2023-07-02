@@ -1,0 +1,53 @@
+.centeredcontainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.centeredbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #56a535;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: fit-content; /* Adicione esta propriedade */
+  margin-left: auto; /* Adicione esta propriedade */
+  margin-right: auto; /* Adicione esta propriedade */
+}
+
+
+
+.backbutton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #56a535;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.h4login {
+  color: #ffff;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.qrcode-image {
+  width: 300px; /* Defina o tamanho desejado para o QR Code */
+  height: 300px; /* Defina o tamanho desejado para o QR Code */
+}
+
+
+.h1login {
+  color: #ffff;
+  padding-top: 40px;
+  text-align: center;
+}

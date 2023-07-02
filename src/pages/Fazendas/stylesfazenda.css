@@ -1,0 +1,219 @@
+.h1fazenda {
+  text-align: center;
+  color: #ffffff;
+}
+
+.fazenda-container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 25px;
+  margin: 20px auto;
+} 
+
+.fazenda-container header {
+  display: flex;
+  align-items: center;
+}
+
+.fazenda-container header span {
+  font-size: 20px;
+  margin-left: 25px;
+}
+
+.fazenda-container header span strong {
+  color: #333333;
+}
+
+.fazenda-container header img {
+  height: 50px;
+}
+
+.fazenda-container header a {
+  width: 250px;
+  margin-left: auto;
+  margin-top: 0;
+}
+
+.fazenda-container header button {
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #dcdce6;
+  background: transparent;
+  margin-left: 16px;
+  transition: border-color 0.5s;
+}
+
+.fazenda-container header button:hover {
+  border-color: #201465;
+}
+
+.fazenda-container h1 {
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+
+.fazenda-container ul {
+  display: grid;
+  padding: 0 25px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 35px;
+  list-style: none;
+}
+
+.teste {
+  padding: 10px;
+}
+
+.fazenda-container ul li {
+  background-color: #e5dfdf;
+  border: 4px solid #8ebc8b;
+  padding: 8px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.fazenda-container ul li button {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  border: 0;
+  background: transparent;
+}
+
+.fazenda-container ul li button+button {
+  top: 50px;
+}
+
+.fazenda-container ul li button:hover {
+  opacity: 0.8;
+}
+
+.fazenda-container ul li strong {
+  display: block;
+  margin-bottom: 16px;
+  color: #41414d;
+}
+
+.fazenda-container ul li p+strong {
+  margin-top: 32px;
+}
+
+.fazenda-container ul li p {
+  color: #737380;
+  line-height: 21px;
+  font-size: 16px;
+}
+
+.custom-navbar-toggler {
+  /* Defina a cor desejada */
+  background-color: #abadf7;
+  font-size: 16px;
+}
+
+.custom-navbar {
+  background-color: #120d56;
+  padding: 12px;
+}
+
+.brand {
+  color: #fff;
+  font-size: 24px;
+}
+
+.brand-logo {
+  width: 50px;
+  /* Ajuste o valor conforme necessário */
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #9b1111;
+}
+
+.ml-configg {
+  margin-left: 180px;
+}
+
+@keyframes colorChange {
+  0% {
+    color: #f4f4f4;
+    /* Cor inicial */
+  }
+
+  20% {
+    color: rgb(255, 0, 0);
+    /* Primeira cor em RGB */
+  }
+
+  40% {
+    color: rgb(0, 255, 0);
+    /* Segunda cor em RGB */
+  }
+
+  60% {
+    color: rgb(0, 0, 255);
+    /* Terceira cor em RGB */
+  }
+
+  80% {
+    color: rgb(255, 255, 0);
+    /* Quarta cor em RGB */
+  }
+
+  100% {
+    color: rgb(255, 0, 255);
+    /* Quinta cor em RGB */
+  }
+}
+
+.cor1 {
+  animation: colorChange 1s linear infinite;
+  margin-left: 20px;
+}
+
+.cor2 {
+  animation: colorChange 2s linear infinite;
+}
+
+.cor3 {
+  animation: colorChange 3s linear infinite;
+}
+
+.cor4 {
+  animation: colorChange 4s linear infinite;
+}
+
+.search-input {
+  border-radius: 8px;
+  border-color: #7f8ae8;
+  margin-top: auto;
+}
+
+.btn-outline-light {
+  color: #fff;
+  border-color: #ffc107;
+  border-radius: 10px;
+  /* margin-left: 10px; */
+  height: 40px;
+  margin-top: 10px;
+}
+
+.custom-button {
+  background-color: rgb(255, 0, 162);
+  border-color: red;
+  color: white;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #333;
+}
